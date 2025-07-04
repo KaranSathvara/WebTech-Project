@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.bg{
+    background-image: url('img/bg.jpg');
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0%;
+    border-radius: 5px;  
+    margin-bottom: 0px;
+    text-align: center;
+}   
+
+.navbar img{
+    border-radius: 50%;
+    width: 55px;
+    border: 2px solid white;
+}
+.navbar{
+    border: 1px solid white;
+    align-items: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 15px;
+    flex-direction: row;
+    justify-content: center;
+    width: 100vw;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.nav{
+    font-family: "Ubuntu", sans-serif;
+    justify-content: center;
+    word-spacing: 40px;
+    text-decoration: none;
+    padding:20px;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+.nav:hover{
+    color: rgba(255, 0, 0, 0.975);
+    cursor: pointer;
+}
+
+.text-big{
+    font-size: 45px;
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text-small{
+    font-size: 25px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.head{
+    padding-top: 4%;
+    padding-bottom: 25px;
+    display: flex;
+    text-align:center;
+    justify-content: center;
+    font-size: 37px;
+    font-family: "Ubuntu", sans-serif;    
+    padding-bottom: 30px;
+    word-spacing: 8px;
+    color: black;
+    text-transform: uppercase;
+}
+.paragraph{
+    display: flex;
+    justify-content: center;
+    text-align:center;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 30px;
+    color: black;
+    padding: 180px 60px 100px 60px;
+}
+
+.btn{
+    margin-top: 2%;
+    padding: 30px;
+    color: black;
+    font-weight: bolder;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 21px;
+    background: none;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.btn:hover{
+    color: white;
+    cursor: pointer;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(201, 195, 186);
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.box-right{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: rgb(201, 195, 186);
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.paras{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    padding-top: 15px;
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.photo{
+    padding: 10px;
+    border-color: white;
+    border-radius: 50%;
+    height: 200px;
+    width: 210px;
+}
+
+.bl{
+    padding: 10px;
+    border-color: white;
+    border-radius: 50%;
+    height: 200px;
+    width: 210px;
+    padding-bottom: 5px;
+}
+
+.name{
+    display: flex;
+    justify-content: center;
+    color: red;
+    font-family: "Ubuntu", sans-serif;    
+    padding-bottom: 15px;
+    font-size: 50px;
+}
+
+.content{
+    text-align: start;
+    font-family: "Ubuntu", sans-serif;    
+}
+
+.ss-form-container {
+  max-width: 750px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  margin: 2px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.ss-form-heading {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #e30613;
+}
+
+.ss-form label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+.ss-form input,
+.ss-form select,
+.ss-form button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.ss-form button {
+  background-color: #e30613;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.ss-form button:hover {
+  background-color: #20fa1c;
+}
+  
+.ss-rating {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+  
+.ss-rating label {
+    display: flex;
+    align-items: center;
+    font-weight: normal;
+}
+  
+.text-center{
+    text-align: center;
+    padding: 20px 0px;
+    font-family: "Ubuntu", sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+
+.foot{
+    margin-top: 0px;
+}
+
+
+@media only screen and (max-width: 2450px){
+    .ss-form-container{
+        max-width: 100vw;
+    }
+
+}
+@media only screen and (max-width: 1024px){
+    .bl{
+        padding: 10px;
+        border-color: white;
+        border-radius: 50%;
+        height: 150px;
+        width: 155px;    
+    }
+    .ss-form-container{
+        max-width: 980px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .paragraph{
+        font-size: 26px;
+        padding: 100px 60px 60px 60px;
+    }
+    .btn{
+        margin-top: -3%;
+        padding: 18px;
+    }
+    .head{
+        margin-top: 0%;
+    }
+    .name{
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 658px){
+    .navbar{
+        flex-direction: column;
+    }
+    .head{
+        font-size: 20px;
+    }
+    .paragraph{
+        font-size: 15px;
+        padding-top: 7px;
+        padding-bottom: 20px;
+    }
+    .btn{
+        margin-top: 1%;
+        padding: 9px;
+        font-size: 15px;
+    }
+    .name{
+        font-size: 30px;
+    }
+    .bl{
+        height: 110px;
+    }
+}
+
+@media only screen and (max-width: 578px){
+    .head{
+        font-size: 18px;
+    }
+    .paragraph{
+        font-size: 13px;
+        padding-top: 5px;
+        padding-bottom: 20px;
+    }
+    .btn{
+        margin-top: 1%;
+        padding: 7px;
+        font-size: 12px;
+    }
+    .content{
+        font-size: 10px;
+    }
+    .name{
+        font-size: 25px;
+    }
+    .bl{
+        height: 80px;
+    }
+}
+
+@media only screen and (max-width: 373){
+    .paragraph{
+        font-size: 12px;
+        padding: 7px;
+    }
+    .btn{
+        font-size: 14px;
+        padding: 16px;
+        margin-top: 2%;
+    }
+    .head{
+        font-size: 18px;
+    }
+    .content{
+        font-size: 7px;
+    }
+    .name{
+        font-size: 18px;
+        padding-bottom: 5px;
+    }
+    .bl{
+        height: 50px;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .paragraph{
+        font-size: 11px;
+        padding: 5px;
+    }
+    .btn{
+        font-size: 13px;
+        padding: 14px;
+        margin-top: 2%;
+    }
+    .head{
+        font-size: 16px;
+    }
+    .paras{
+        font-size: 10px;
+    }
+    .navbar{
+        font-size: 5px;
+    }
+    .text-center{
+        font-size: 18px;
+    }
+    .bl{
+        height: 40px;
+    }
+}
+
